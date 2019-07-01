@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Piskel clone</title>
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="stylesheet" href="css/style.bundle.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-item">
+        <a class="header-item-logo" href="#">
+          <img src="img/logo-site.png" alt="Piskel clone">
+        </a>
+      </div>
+      <div class="header-title">New Piskel</div>
+    </div> 
+  </header> 
+
+
+<div class="work-place">
+  <div class="tools">
+  <ul class="tools-container">
+    <li class="tools-container__tool">
+      <img src="img/tools/pencil.png" alt="pencil">
+    </li>
+    <li class="tools-container__tool">
+      <img src="img/tools/circle.png" alt="circle">
+    </li>
+    <li class="tools-container__tool">
+      <img src="img/tools/sqr.png" alt="square">
+    </li>
+    <li class="tools-container__tool">
+      <img src="img/tools/pip.png" alt="pipette">
+    </li>
+    <li class="tools-container__tool">
+      <img src="img/tools/back.png" alt="fill">
+    </li>
+    <li class="tools-container__tool">
+      <img src="img/tools/last.png" alt="washing">
+    </li>
+  </ul>
+</div>
+  <div class="preview-list">
+  <div class="preview-list-scroller">
+    <ul class="preview-list-sortable">
+      <li class="preview-list-tile">
+        <canvas width="96" height="96" class="tile-view canvas"></canvas>
+        <button class="preview-list-duplicate"></button>
+      </li>
+    </ul>
+  </div>
+</div>
+  <div class="drawing-area">
+  <canvas id="canvas" width="800" height="800"></canvas>
+</div>
+</div>
+
+    
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
